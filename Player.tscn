@@ -1,13 +1,22 @@
 [gd_scene format=3 uid="uid://djgyv3y2ln470"]
 
 [ext_resource type="Texture2D" uid="uid://oya8wpn6jmc8" path="res://icon.svg" id="1_xhfnw"]
+[ext_resource type="PackedScene" uid="uid://ceo6eqphp5isn" path="res://sprite_2_test.tscn" id="2_kpjcp"]
 
 [node name="root" type="Node2D" unique_id=2044378583]
 position = Vector2(36, 89)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=941803616]
-position = Vector2(1, -74)
+position = Vector2(70, 1)
 texture = ExtResource("1_xhfnw")
 
 [node name="Node2D" type="Node2D" parent="." unique_id=1400133124]
 position = Vector2(60, -266)
+
+[node name="Sprite2D2" parent="." unique_id=1894032904 instance=ExtResource("2_kpjcp")]
+
+[node name="Sprite2D3" parent="." unique_id=892713948 instance=ExtResource("2_kpjcp")]
+position = Vector2(288, 238)
+
+[node name="Sprite2D4" parent="." unique_id=1688930595 instance=ExtResource("2_kpjcp")]
+position = Vector2(401, 163)

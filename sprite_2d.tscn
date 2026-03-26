@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cvrvmckfei360"]
+
+[ext_resource type="Texture2D" uid="uid://batdwge0xghdd" path="res://assets/miao1.png" id="1_mehiu"]
+[ext_resource type="Script" uid="uid://2my7qs04sxew" path="res://sprite_2d.gd" id="2_lt4yx"]
+
+[node name="Node2D" type="Node2D" unique_id=529303366]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1632033935]
+position = Vector2(331, 331)
+texture = ExtResource("1_mehiu")
+script = ExtResource("2_lt4yx")
